@@ -1,36 +1,41 @@
 .photo
 {
-    display:flex;
-    justify-content:flex-end
-    
+    float:right
 }
 
 .renseignements
 {
-    display: flex;
+    border: 3px black;
     align-items:flex-start;
     font-weight: bold;
-    border-radius: 10px black 
     
 }
-.TitreH1
+
+h1
 {
+    color:red;
     text-align: center;
     font-weight: bold;
-    text-decoration: underline
-    color #e63946
+    text-decoration:underline;
 }
 
-.TitreH2
+mark
 {
-    text-align: center;
-    text-decoration: underline
-    color #1302ff
+    background:none
 }
 
-.TitreH3
+h2
+{
+    color: blue;
+    text-align: center;
+    text-decoration:underline
+    
+}
+
+h3
 {
     font-weight: bold;
+    text-decoration: underline;
 }
 
 
@@ -41,5 +46,5 @@
 
 .souligné
 {
-    text-decoration: underline;
+    text-decoration:underline;
 }
