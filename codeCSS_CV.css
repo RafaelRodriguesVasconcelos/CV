@@ -3,11 +3,43 @@
     display:flex;
     justify-content:flex-end
     
-
 }
 
+.renseignements
+{
+    display: flex;
+    align-items:flex-start;
+    font-weight: bold;
+    border-radius: 10px black 
+    
+}
 .TitreH1
 {
-    text-align: center
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline
+    color #e63946
 }
 
+.TitreH2
+{
+    text-align: center;
+    text-decoration: underline
+    color #1302ff
+}
+
+.TitreH3
+{
+    font-weight: bold;
+}
+
+
+.gras
+{
+    font-weight: bold;
+}
+
+.souligné
+{
+    text-decoration: underline;
+}
