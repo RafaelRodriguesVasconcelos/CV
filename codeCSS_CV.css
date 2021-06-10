@@ -2,6 +2,7 @@
 {
     display: flex;
     justify-content: flex-end;
+    border: 1px solid black;  
 }
 
 .renseignements
@@ -48,4 +49,9 @@ h3
 .souligné
 {
     text-decoration:underline;
+}
+
+#photo img
+{
+   width:200px;
 }
